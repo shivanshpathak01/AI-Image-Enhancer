@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import ImagePreview from './ImagePreview'
 import ImageUpload from './ImageUpload'
 import { enhancedImageAPI } from "../utils/enhanceImageApi" 
-//
+// 1:05:00 or 1:10:00
 function Home() {
   const [uploadImage, setUploadImage] = useState(null)
   const [enhancedImage, setEnhancedImage] = useState(null)
