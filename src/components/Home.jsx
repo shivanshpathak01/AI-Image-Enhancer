@@ -22,13 +22,14 @@ function Home() {
     }
   } 
 
+
   return (
     <>
       <ImageUpload UploadImagehandler={UploadImagehandler}/>
       <ImagePreview 
       loading={loading} 
       upload={uploadImage}
-      enhanced={enhancedImage}
+      enhanced={enhancedImage?.image}
       
       />
     </>
